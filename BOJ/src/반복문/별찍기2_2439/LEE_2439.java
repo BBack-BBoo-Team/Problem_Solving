@@ -1,4 +1,7 @@
-package 반복문.별찍기2_2439;
+package Bj;
+
+import java.util.Scanner;
+
 
 /*
 메모리 18500kb
@@ -9,9 +12,7 @@ package 반복문.별찍기2_2439;
 3.배열 만드는 코드 작성 ,한줄 완성되면 줄바꾸는 코드 작성 (2중 for문 이용)
 * */
 
-import java.util.Scanner;
-
-public class Lee_2439 {
+public class Bj_2439 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int c = sc.nextInt();
