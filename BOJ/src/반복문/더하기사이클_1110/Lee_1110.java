@@ -1,4 +1,4 @@
-package Bj;
+package 반복문.더하기사이클_1110;
 
 import java.util.Scanner;
 /*
@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 
 
-public class Bj_1110 {
+public class Lee_1110 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
