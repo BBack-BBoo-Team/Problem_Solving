@@ -31,6 +31,7 @@ public class KJames_2562 {
 
         int maxNum = numberArr[0]; // 최댓값 초기화
         int maxIndex = 0; // 최댓값 인덱스
+
         // 2) 순회하며 최댓값을 찾고, 해당 인덱스 반환
         for (int i = 1; i < numberArr.length; i++) {
 

@@ -8,8 +8,8 @@ import java.io.InputStreamReader;
  * 문제
  * 학생들의 성적 평균을 넘는 학생 비율 구하기 (소수점 셋째 자리까지 출력!)
  * point
- * 1) StringTokenizer 활용
- * 2) 소수점 셋째 자리 출력 함수 활용
+ * 1) split() 활용
+ * 2) 소수점 셋째 자리까지 출력 함수 활용
  *
  * 수행시간 168ms
  */
