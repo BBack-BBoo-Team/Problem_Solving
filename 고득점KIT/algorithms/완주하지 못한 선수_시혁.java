@@ -17,24 +17,15 @@ class Solution {
     public String solution(String[] participant, String[] completion) {
         
         HashMap<String,Integer> map = new HashMap<>();
-        String curr = "";
-        
-        for(int i = 0; i < participant.length; i++) {
-            curr = participant[i];
 
-            // 동명이인 체크를 위해 getOrDefault() 사용
-            // 등록된 키가 없으면 default 0 적용, 등록된 키가 있다면 해당 키의 값 가지고 옴
-            // 그리고 값에서 +1 적용
-            map.put(curr, map.getOrDefault(curr,0)+1);
-        }
+        // 동명이인 체크를 위해 getOrDefault() 사용
+        // 등록된 키가 없으면 default 0 적용, 등록된 키가 있다면 해당 키의 값 가지고 옴
+        // 그리고 값에서 +1 적용
+        for(String player : participant) map.put(player, map.getOrDefault(player,0)+1);
         
-        for(int i = 0; i < completion.length; i++) {
-            curr = completion[i];
-            
-            // 완주자 중에 동명이인이 있을 수 있음
-            // 완주자 이름에 맞는 map의 인원수를 -1
-            if (map.containsKey(curr)) map.put(curr, map.get(curr)-1);
-        }
+        // 완주자 중에 동명이인이 있을 수 있음
+        // 완주자 이름에 맞는 map의 인원수를 -1
+        for(String player : completion) map.put(player, map.get(player)-1);
         
         for(String key: map.keySet()) {
             if (map.get(key)==1) return key;
