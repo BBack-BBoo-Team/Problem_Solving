@@ -1,4 +1,4 @@
-// 1<= numbers.length <= 100,000 ->> O(N) 이하
+// 1<= numbers.length <= 100,000 ->> O(N) 이하로 해결해야함
 // 0<= numbers <= 1,000 ->> 수는 4자리, int
 // 정답은 String ->> StringBuilder로 append 후 String 변환
 import java.util.Arrays;
@@ -44,7 +44,7 @@ class Solution {
 * 1) Comparable, Comparator 인터페이스 비교
 * 2) Comparable과 Comparator 구현 및 사용 방법
 * 3) 문자열 정렬 원리
-* 4) 정렬 알고리즘별 시간복잡도 계산
+* 4) 정렬 알고리즘별로 시간복잡도 계산
 *
 * >> C#
 */
