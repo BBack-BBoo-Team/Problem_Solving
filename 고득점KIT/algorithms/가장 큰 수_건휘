@@ -1,0 +1,27 @@
+using System;
+using System.Linq;
+
+public class Solution {
+    public string solution(int[] numbers) {
+
+    // Sort 와 Compare 를 이용해서 두가지 수의 합에 따른 비교
+    Array.Sort(numbers, (a, b) =>
+    {
+        string current = a.ToString() + b.ToString();
+        string compare = b.ToString() + a.ToString();
+        return compare.CompareTo(current);
+    });
+
+    string builder = "";
+
+    foreach (var item in numbers)
+    {
+        builder += item;
+    }
+    
+    //만약 첫번째 요소가 0이면 "0" return
+    if (builder.First().Equals("0")) return "0";
+    else return builder;
+    }
+    
+}
