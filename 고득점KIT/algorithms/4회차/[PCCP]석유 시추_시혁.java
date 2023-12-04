@@ -39,7 +39,7 @@ class Solution {
                         int nextRow = currRow+tb[i];
                         int nextCol = currCol+lr[i];
 
-                        if(isEnd(nextRow, nextCol)) continue;
+                        if(isNotLand(nextRow, nextCol)) continue;
                         if (isNotOil(land[nextRow][nextCol])) continue;
                         q.add(new int[]{nextRow,nextCol});
                     }
@@ -57,7 +57,7 @@ class Solution {
 
     }
 
-    private boolean isEnd(int r, int c) {
+    private boolean isNotLand(int r, int c) {
         return r < 0 || c < 0 || r >= rowSize || c >= colSize;
     }
 
