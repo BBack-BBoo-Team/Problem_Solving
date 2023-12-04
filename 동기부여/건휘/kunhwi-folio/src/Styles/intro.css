@@ -1,0 +1,19 @@
+.intro-body {
+    background-color: red;
+    width: 50rem;
+    height : 25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-left-body {
+    background-color: blue;
+    width: 20rem;
+
+}
+
+.intro-right-body {
+    width: 30rem;
+    background-color: aquamarine;
+    
+}
