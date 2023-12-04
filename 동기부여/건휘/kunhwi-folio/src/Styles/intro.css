@@ -1,9 +1,18 @@
 .intro-body {
-    background-color: red;
     width: 50rem;
     height : 25rem;
     display: flex;
     justify-content: space-around;
+}
+
+span {
+    font-size: 15px;
+}
+
+hr {
+    width: 30rem;
+    border : 1px dashed white;
+    opacity: 0.5;
 }
 
 .intro-left-body {
@@ -14,6 +23,18 @@
 
 .intro-right-body {
     width: 30rem;
-    background-color: aquamarine;
-    
+    text-align: left;
+    padding : 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+#name_text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#name_domain {
+    color : grey;
 }
