@@ -22,8 +22,7 @@ public class 사다리타기 {
         for (int i = 0; i < n; i++) {
             int move = i;
             for (int j = 0; j < depth; j++) {
-                if(ladderLine[move][j] == 1) move++;
-                else if (ladderLine[move][j] == -1) move--;
+                move += ladderLine[move][j];
             }
             answer[move] = (char) (i+65);
         }
