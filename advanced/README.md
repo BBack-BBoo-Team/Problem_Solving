@@ -73,7 +73,7 @@
 - [ ] 공 굴리기
 - [ ] 교육 과정
 
-### 9. DP
+### 9. [DP](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/DP)
 -
 -
 
