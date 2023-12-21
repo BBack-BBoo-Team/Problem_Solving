@@ -1,7 +1,7 @@
 ### 1. [시뮬레이션 & 구현](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%26%EA%B5%AC%ED%98%84)
 
 - [X] 사다리 타기
-- [ ] 청소
+- [X] 청소
 - [ ] 잃어버린 강아지
 - [ ] 좌석 번호
 - [ ] 최대 길이 바이토닉 수열
