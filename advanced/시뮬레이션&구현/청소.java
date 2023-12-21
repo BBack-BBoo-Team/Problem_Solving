@@ -39,8 +39,8 @@ public class 청소 {
 
     // 회전
     private void rotation() {
-        if (currDir==3) currDir=0;
-        else currDir++;
+        currDir++;
+        currDir %= 4;
     }
 
     // 직진
