@@ -48,3 +48,4 @@ public class 청소 {
         answer[0] += dir[currDir][0];
         answer[1] += dir[currDir][1];
     }
+}
