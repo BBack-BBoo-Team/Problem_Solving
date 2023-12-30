@@ -7,7 +7,7 @@
 - [X] 최대 길이 바이토닉 수열
 - [X] 과일 가져가기
 - [X] 비밀 번호
-- [ ] 회의실 만남
+- [X] 회의실 만남
 
 ### 2. [해싱 & 시간파싱](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%ED%95%B4%EC%8B%B1%26%EC%8B%9C%EA%B0%84%ED%8C%8C%EC%8B%B1)
 
