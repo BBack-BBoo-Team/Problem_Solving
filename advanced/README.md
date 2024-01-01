@@ -11,7 +11,7 @@
 
 ### 2. [해싱 & 시간파싱](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%ED%95%B4%EC%8B%B1%26%EC%8B%9C%EA%B0%84%ED%8C%8C%EC%8B%B1)
 
-- [ ] 한 번만 사용한 최초 문자
+- [X] 한 번 사용한 최초문자
 - [ ] 같은 빈도수 만들기
 - [ ] 서로 다른 빈도수 만들기
 - [ ] 음수가 있는 부분수열
