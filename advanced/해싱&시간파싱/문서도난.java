@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
@@ -5,19 +6,17 @@ public class 문서도난 {
 
     class Informant implements Comparable<Informant> {
         String name;
-        String time;
-        int timeToMin;
+        int time;
 
-        public Informant(String name, String time, int timeToMin) {
+        public Informant(String name, int time) {
             this.name = name;
             this.time = time;
-            this.timeToMin = timeToMin;
         }
 
 
         @Override
         public int compareTo(Informant o) {
-            return this.timeToMin - o.timeToMin;
+            return this.time - o.time;
         }
     }
     int timeFrom, timeTo;
@@ -34,7 +33,7 @@ public class 문서도난 {
             String time = data.split(" ")[1];
             int timeToMin = toMinute(time);
 
-            if(isInTime(timeToMin)) pq.add(new Informant(name, time ,timeToMin));
+            if(isInTime(timeToMin)) pq.add(new Informant(name, timeToMin));
         }
 
         answer = new String[pq.size()];
