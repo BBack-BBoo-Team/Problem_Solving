@@ -1,6 +1,7 @@
 import java.util.HashSet;
 
 // set 활용 풀이, O(N)
+// 자료구조 set의 중복 제거 및 검색 기능을 활용했다는 점은 좋음. 그렇지만 시간복잡도는 동일하기 때문에 효율 차이는 크지않음
 public class 최대길이연속수열2 {
 
     public int solution(int[] nums) {
