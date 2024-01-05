@@ -16,8 +16,8 @@
 - [X] 서로 다른 빈도수 만들기
 - [X] 음수가 있는 부분수열
 - [X] 회장 선거
-- [ ] 문서 도난
-- [ ] 경고 메일
+- [X] 문서 도난
+- [X] 경고 메일
 
 ### 3. [자료구조 활용](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
 
