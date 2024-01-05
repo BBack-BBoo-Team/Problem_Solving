@@ -21,8 +21,8 @@
 
 ### 3. [자료구조 활용](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
 
-- [ ] 최대 길이 연속수열
-- [ ] 겹쳐진압축 해제
+- [X] 최대 길이 연속수열
+- [X] 겹쳐진 압축 해제
 - [ ] 현관문 출입 순서
 - [ ] 피부과
 - [ ] CPU 스케쥴링
