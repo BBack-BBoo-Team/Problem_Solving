@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -43,7 +42,10 @@ public class 현관문출입순서 {
                 }
 
                 if(currDoor==0) {
-                    if(pq[0].isEmpty()) currDoor=1;
+                    if(pq[0].isEmpty()) {
+                        resultIdx = pq[1].poll();
+                        currDoor = 1;
+                    }
                     else resultIdx = pq[0].poll();
                 }
 
