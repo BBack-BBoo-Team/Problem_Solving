@@ -8,7 +8,7 @@ public class 피부과2 {
 
         int t = toMin(enter[0].split(" ")[0]),
                 ft = t + laser[Integer.parseInt(enter[0].split(" ")[1])],
-                answer = 0, idx = 1, exit = 1;
+                answer = 0, idx = 1;
 
         Queue<Integer> waiting = new LinkedList<>();
 
