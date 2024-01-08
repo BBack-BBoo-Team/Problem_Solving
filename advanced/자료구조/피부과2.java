@@ -1,8 +1,9 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 반복범위 540(09:00) ~ 1200(20:00), O(N)
-public class 피부과_sol {
+// 최대시간 1200(20:00)
+// 어차피 최대 대기수는 n-1
+public class 피부과2 {
     public int solution(int[] laser, String[] enter) {
 
         int t = toMin(enter[0].split(" ")[0]),
@@ -13,28 +14,22 @@ public class 피부과_sol {
 
         for (; t <= 1200; t++) {
 
-            if (exit == enter.length) break;
+            if (idx == enter.length) break;
 
-            if(idx < enter.length) {
-                int enterTime = toMin(enter[idx].split(" ")[0]);
-                int laserIdx = Integer.parseInt(enter[idx].split(" ")[1]);
+            int enterTime = toMin(enter[idx].split(" ")[0]);
+            int laserIdx = Integer.parseInt(enter[idx].split(" ")[1]);
 
-                if (t == enterTime) {
-                    waiting.add(laserIdx);
-                    idx++;
-                }
+            if (t == enterTime) {
+                waiting.add(laserIdx);
+                idx++;
             }
 
             if (t >= ft) {
-                if(waiting.isEmpty()) continue;
+                if (waiting.isEmpty()) continue;
                 ft = t + laser[waiting.poll()];
-                exit++;
             }
-
             answer = Math.max(answer, waiting.size());
-
         }
-
         return answer;
     }
 
@@ -49,3 +44,4 @@ public class 피부과_sol {
         System.out.println(T.solution(new int[]{30, 20, 25, 15}, new String[]{"10:20 1", "10:40 1", "11:00 1", "11:20 1", "11:40 1"}));
     }
 }
+
