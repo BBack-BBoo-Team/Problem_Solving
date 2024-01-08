@@ -3,6 +3,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
+// 아래 코드의 문제 : 조건중 cpu 호출시간과 실행시간이 모두 동일할 경우엔?
+// 처음 저장한 cpu의 인덱스 정보가 사라짐
 public class cpu스케쥴링 {
 
     public int[] solution(int[][] tasks){
