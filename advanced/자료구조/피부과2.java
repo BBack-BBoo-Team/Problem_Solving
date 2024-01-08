@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 최대시간 1200(20:00)
+// 540(09:00) ~ 1200(20:00), O(N)
 // 어차피 최대 대기수는 n-1
 public class 피부과2 {
     public int solution(int[] laser, String[] enter) {
