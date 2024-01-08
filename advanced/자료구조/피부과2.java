@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-// 최대시간 1200(20:00)
+// 반복범위 540(09:00) ~ 1200(20:00), O(N)
 public class 피부과_sol {
     public int solution(int[] laser, String[] enter) {
 
