@@ -23,10 +23,10 @@
 
 - [X] 최대 길이 연속수열
 - [X] 겹쳐진 압축 해제
-- [ ] 현관문 출입 순서
-- [ ] 피부과
-- [ ] CPU 스케쥴링
-- [ ] 가장 많이 사용된 회의실
+- [X] 현관문 출입 순서
+- [X] 피부과
+- [X] CPU 스케쥴링
+- [X] 가장 많이 사용된 회의실
 
 ### 4. [sorting & thinking](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%08Sorting%26Thinking)
 
