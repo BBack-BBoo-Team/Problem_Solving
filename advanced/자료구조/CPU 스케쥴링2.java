@@ -28,15 +28,13 @@ public class cpu스케쥴링2 {
             if(pq.isEmpty() && ft <= program[i][0]) ft += program[i][0];
 
             while (i < n && ft >= program[i][0]) {
-                pq.add(program[i]);
-                i++;
+                pq.add(program[i++]);
             }
 
             if (!pq.isEmpty()) {
                 int[] runCPU = pq.poll();
-                answer[idx] = runCPU[2];
+                answer[idx++] = runCPU[2];
                 ft += runCPU[1];
-                idx++;
             }
         }
 
