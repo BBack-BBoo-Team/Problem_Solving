@@ -30,8 +30,8 @@
 
 ### 4. [sorting & thinking](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/%08Sorting%26Thinking)
 
-- [ ] 이진수 정렬
-- [ ] 수열 찾기
+- [X] 이진수 정렬
+- [X] 수열 찾기
 - [ ] 카드 가져가기
 - [ ] 심사위원
 - [ ] 모임장소
