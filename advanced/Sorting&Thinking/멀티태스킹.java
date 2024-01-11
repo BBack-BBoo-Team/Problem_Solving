@@ -1,6 +1,9 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+// int = 2,147,483,647
+// 1 <= k <= 2*10^13 -> 14자리 -> int 넘어 (long)
+// time limit 발생...
 public class 멀티태스킹 {
 
     // k초 전까지 작업 진행하고, 정전되었을 때 queue가 비었으면 -1, 아니면 제일 앞 작업의 인덱스 추출
