@@ -34,9 +34,9 @@
 - [X] 수열 찾기
 - [X] 카드 가져가기
 - [X] 심사위원
-- [ ] 모임장소
-- [ ] 멀티태스킹
-- [ ] 최소 회의실 개수
+- [X] 모임장소
+- [X] 멀티태스킹
+- [X] 최소 회의실 개수
 
 ### 5. [greedy](https://github.com/BBack-BBoo-Team/Problem_Solving/blob/master/advanced/greedy/README.md)
 
