@@ -40,9 +40,9 @@
 
 ### 5. [greedy](https://github.com/BBack-BBoo-Team/Problem_Solving/blob/master/advanced/greedy/README.md)
 
-- [ ] 침몰하는 타이타닉
-- [ ] 이동 횟수
-- [ ] 스프링쿨러
+- [X] 침몰하는 타이타닉
+- [X] 이동 횟수
+- [X] 스프링쿨러
 - [ ] 꽃이 피는 최단시간
 - [ ] 전투 게임
 - [ ] 최대 인원수
