@@ -44,8 +44,8 @@
 - [X] 이동 횟수
 - [X] 스프링쿨러
 - [X] 꽃이 피는 최단시간
-- [ ] 전투 게임
-- [ ] 최대 인원수
+- [X] 전투 게임
+- [X] 최대 인원수
 
 ### 6. [DFS](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/DFS)
 
