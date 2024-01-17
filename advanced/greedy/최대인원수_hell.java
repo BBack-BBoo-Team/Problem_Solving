@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 // hint 기차를 한 줄로 생각할 것
 public class 최대인원수 {
@@ -21,13 +19,13 @@ public class 최대인원수 {
         Arrays.sort(bookings, (o1,o2) -> o1[0] == o2[0] ? o1[1] - o2[1] : o1[0] - o2[0]);
 
         int num = 0; // 어린이 번호
-        ArrayList<Integer> train = new ArrayList<>();
+        LinkedList<Integer> train = new LinkedList<>();
         for(int i = 1; i <= n; i++) {
 
             // 도착역에서 내림
             // 정상적으로 내렸기 때문에 answer+1
             while(!train.isEmpty() && train.get(0) == i) {
-                train.remove(0);
+                train.pollFirst();
                 answer++;
             }
 
@@ -40,7 +38,7 @@ public class 최대인원수 {
 
             // 탑승 가능 수가 넘었다면 가장 멀리서 내리는 사람을 내리게 함
             while(train.size() > station[i]) {
-                train.remove((train.size()-1));
+                train.pollLast();
             }
         }
         return answer;
