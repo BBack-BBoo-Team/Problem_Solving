@@ -49,8 +49,8 @@
 
 ### 6. [DFS](https://github.com/BBack-BBoo-Team/Problem_Solving/tree/master/advanced/DFS)
 
-- [ ] 가장 가까운 큰수
-- [ ] 줄다리기
+- [X] 가장 가까운 큰수
+- [X] 줄다리기
 - [ ] 바둑대회
 - [ ] 팰린드롬의 경우수
 - [ ] IP 주소
