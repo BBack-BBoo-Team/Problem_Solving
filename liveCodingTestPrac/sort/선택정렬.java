@@ -7,15 +7,21 @@
 */
 int[] selectSort(int arr[]) {
   int n = arr.length;
-  int[] answer = new int[n];
   for(int i = 0; i < n-1; i++) {
     int min = Integer.MIN_VALUE;
-    for(int j = i+1; j < n; j++) {
+    int findIdx = 0;
+    // 현재 인덱스부터 마지막 인덱스까지 탐색
+    for(int j = i; j < n; j++) {
       int curr = arr[j];
       if(min <= curr) continue;
       min = curr;
+      findIdx = j;
     }
-    answer[i] = min;
+
+    // 자리교체
+    int temp = arr[0];
+    arr[0] = min;
+    arr[findIdx] = temp;
   }
   return answer;
 }
